@@ -1,0 +1,26 @@
+.main-nav {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-nav--light {
+    background-color: var(--pureWhite);
+    color: var(--dark);
+    border-bottom: 1px solid var(--dark);
+
+}
+
+.main-nav--dark {
+    background-color: var(--dark);
+    color: var(--pureWhite);
+    border-bottom: 1px solid var(--pureWhite);
+}
+
+.main-nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 960px;
+}

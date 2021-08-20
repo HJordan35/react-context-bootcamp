@@ -1,0 +1,8 @@
+:root {
+  --dark: #2c2e40;
+  --pureWhite: #ffffff;
+}
+
+.app {
+  height: 100vh;
+}

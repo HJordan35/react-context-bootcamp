@@ -1,0 +1,13 @@
+.theme-toggle--light {
+  border: 1px solid var(--dark);
+}
+
+.theme-toggle--dark {
+  border: 1px solid var(--pureWhite);
+}
+
+.theme-toggle > div > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

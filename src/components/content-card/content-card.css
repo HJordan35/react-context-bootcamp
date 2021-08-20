@@ -1,0 +1,17 @@
+.content-card {
+    padding: 24px;
+    border-radius: 8px;
+}
+
+
+.content-card--light {
+    background: var(--pureWhite);;
+    color: var(--dark);
+    box-shadow:rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.content-card--dark {
+    background: var(--dark);;
+    color: var(--pureWhite);
+    box-shadow: rgba(241, 241, 241, 0.613) 0px 2px 8px 0px;
+}

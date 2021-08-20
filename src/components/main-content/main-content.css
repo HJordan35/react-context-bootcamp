@@ -1,0 +1,24 @@
+.layout {
+    width: 100%;
+    height: 100%;
+}
+
+.layout--light {
+    background-color: var(--pureWhite);
+}
+
+.layout--dark {
+    background-color: var(--dark);
+}
+
+.layout-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 24px 0;
+    width: 100%;
+    max-width: 960px;
+}
+
